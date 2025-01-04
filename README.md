@@ -31,20 +31,20 @@ Siga as etapas abaixo para executar a solução localmente:
 
 ## Uso
 
-Após seguir as etapas acima para iniciar a aplicação, você pode enviar requisições para a API, para isso, uma dica bem interessante é você ter instalado a ferramenta Postman, o qual permite testar APIs WEB:
+Após seguir as etapas acima para iniciar a aplicação, você pode enviar requisições para a API, para isso, uma dica bem interessante é você ter instalado a ferramenta Postman ou Insomnia, o qual permite testar APIs WEB:
 
-Considerando que você já tenha o Postman instalado na sua máquina vamos lá:
+Considerando que você já tenha o umas das duas ferramentas instalado na sua máquina, vamos lá:
 
-- Abra o Potman, clique no **+**, onde a seta está apontando e depois clique em **Blank collection**:
+- Utilizei o Postman, clique no **+**, onde a seta está apontando e depois clique em **Blank collection** ou **Coleção em Branco**:
 ![alt text](images/image1-2.png)
 
-- Depois que você fez o passo acima, você vai clicar em **add a request** onde a seta está indicando:
+- Depois de feito o passo acima, você vai clicar em **add request** ou **Adicionar Requisição** onde a seta está indicando:
 ![alt text](images/image2.png)
 
-- Após concluir o passo acima você verá que foi criado a request
+- Após concluir o passo acima, você verá que foi criado uma Requisição
 ![alt text](images/image2-1.png)
 
-- De acordo com o que você deseja realizar, basta mudar o tipo da resquisição **GET ou POST**, ilustrado com o número **2**, e mudar a rota, ilustrada com o número **3**
+- De acordo com o que você deseja realizar, basta mudar o tipo da resquisição **GET, POST, PUT, DELETE**, ilustrado com o número **2**. mudar a rota, ilustrada com o número **3**
 
 - Se a resquisição for do tipo **POST**, certifique-se de que está incluido o Payload - conteúdo da rquisição.
 - **Exemplo pro Payload**:
@@ -60,6 +60,10 @@ rota: http://localhost:8080/transaction
 }
 ```
 - Por fim, verifique tudo e clique em **SEND**.
+
+- Nesta API, seguindo o que o desafio propôs a fazer, disponibilizei dois Endpoints gerais:
+1. Endpoint ``/User``: Este Endpoint fornece recursos para salvar usuários logistas quanto os usuários comuns, busca todos os usuários e busca um único usuário.
+2. Endpoint ``/Transaction``: Este Endpoint fornece o recurso para iniciar uma transação.
 
 
 ## Contribuição
