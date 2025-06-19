@@ -28,13 +28,13 @@ Siga as etapas abaixo para executar a solução localmente:
    ```
 2. Após fazer os passos acima, você deve mudar as configurações de perfis
    ```
-   aplications-test-demo.aplication
+   aplication-test-demo.aplication
    ```
    ```
-   aplications-dev-demo.aplication
+   aplication-dev-demo.aplication
    ```
    ```
-   aplications-prod-demo.aplication
+   aplication-prod-demo.aplication
    ```
 2. Execulte a aplicação em sua IDE de preferência.
 
