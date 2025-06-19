@@ -38,5 +38,8 @@ build/
 
 src/main/resources/*
 !src/main/resources/application.properties
+!src/main/resources/application-dev-demo.properties
+!src/main/resources/application-prod-demo.properties
+!src/main/resources/application-test-demo.properties
 
 
